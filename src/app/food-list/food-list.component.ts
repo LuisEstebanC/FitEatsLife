@@ -10,6 +10,7 @@ import { Results, PurpleProduct } from '../models/food.models';
 
 export class FoodListComponent implements OnInit {
 
+  //TODO: refactor this variable 
   foods: any;
   ingredients: PurpleProduct[] = [];
   errorMessage = '';
